@@ -1,9 +1,10 @@
-import { NavbarDemo } from './card';
+import { SignupFormDemo } from './card';
+import {NavbarDemo} from './nav';
 export default function Home() {
   return (
     <div>
-      <NavbarDemo></NavbarDemo>
-
+      <SignupFormDemo></SignupFormDemo>
+    <NavbarDemo></NavbarDemo>
     </div>
   )
 }
